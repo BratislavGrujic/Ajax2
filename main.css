@@ -1,0 +1,135 @@
+body{
+	padding-top: 30px;
+}
+.imgHolder{
+	width: 150px;
+	height: 170px;
+	display: inline-block;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	vertical-align: middle;
+	cursor: pointer;
+}
+.primary{
+	display: block;
+	cursor: pointer;
+	margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modalContent {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    position: relative;
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.block{
+	display: block;
+}
+.notBlock{
+	display: none;
+}
+#bigPic{
+	width: 300px;
+	height: 300px;
+	margin: 5px auto;
+	display: block;
+}
+.fas{
+    color: black;
+    position: absolute;
+    cursor: pointer;
+}
+.fa-angle-right{
+    top: 200px;
+    right: 100px;
+}
+.fa-angle-left{
+    top: 200px;
+    left: 100px;
+}
+#picTitle{
+    margin-bottom: 30px;
+}
+
+.likeAndDislike{
+    width: 100px;
+    height: 40px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    position: relative;
+    background: url('coverlikedislike3.jpg') 0 91px;
+
+}
+.mainCont{
+    display: inline-block;
+}
+.mainCont{
+    height: 280px;
+    position: relative;;
+}
+.like,.dislike,.favourite{
+    width: 30px;
+    height: 40px;
+    position: absolute;
+    top: 0px;
+    cursor: pointer;
+}
+.like{
+    
+    left: 10px;
+}
+.dislike{
+    right: 15px;
+}
+.liked{
+    background: url('coverlikedislike3.jpg') ;
+}
+.disliked{
+    background: url('coverlikedislike3.jpg') 0 -81px;
+}
+.likeCounterHolder,.dislikeCounterHolder{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    bottom: 40px;
+}
+.dislikeCounterHolder{
+    left: 85px;
+}
+.likeCounterHolder{
+    left: 40px;
+}
+.favourite{
+    position: absolute;
+    right: -24px;
+    background: url('favourite.jpg') -60px 693px;
+}
+.favourited{
+    background: url('favourite.jpg') -60px 652px;
+}
